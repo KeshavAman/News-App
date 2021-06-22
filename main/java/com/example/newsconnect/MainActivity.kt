@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
     }
 
     private fun fetchData() {
-        val url = "https://saurav.tech/NewsAPI/top-headlines/category/health/in.json"
+        val url = "Your_NewsApp_Api"
         val jsonObjectRequest = JsonObjectRequest(
             Request.Method.GET,
             url,
